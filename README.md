@@ -29,7 +29,6 @@ Instructional dance video app
 
 **Required Must-have Stories**
 
-* [fill in your required user stories here]
 * User can login
 * User can register an account
 * User can view list of videos with dances
@@ -39,7 +38,6 @@ Instructional dance video app
 
 **Optional Nice-to-have Stories**
 
-* [fill in your required user stories here]
 * Profile page/Setting page
 * Category of videos
 * User can upload videos
