@@ -80,7 +80,7 @@ Instructional dance video app
  * Stream
 
 ## Wireframes
-<a href="https://imgur.com/dd3c2CY"><img src="https://i.imgur.com/dd3c2CY.jpg" title="source: imgur.com" width=600> /></a>
+<a href="https://imgur.com/dd3c2CY"><img src="https://i.imgur.com/dd3c2CY.jpg" title="source: imgur.com" width=600></a>
 
 ### [BONUS] Digital Wireframes & Mockups
 
