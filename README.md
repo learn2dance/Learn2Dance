@@ -82,6 +82,7 @@ Instructional dance video app
 ## Wireframes
 [Add picture of your hand sketched wireframes in this section]
 <img src="https://imgur.com/dd3c2CY" width=600>
+<a href="https://imgur.com/dd3c2CY"><img src="https://i.imgur.com/dd3c2CY.jpg" title="source: imgur.com" /></a>
 
 ### [BONUS] Digital Wireframes & Mockups
 
