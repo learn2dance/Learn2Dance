@@ -127,3 +127,8 @@ Instructional dance video app
          }
          ```
 
+-[] Networking (2pts)
+GitHub Project created (1pt)
+GitHub Milestones created (1pt)
+GitHub Issues created from user stories (2pts)
+Issues added to project and assigned to specific team members (1pt)
