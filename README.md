@@ -127,8 +127,8 @@ Instructional dance video app
          }
          ```
 ### Milestone Deliverables
-- [ ] Networking (2pts)
-- [ ] itHub Project created (1pt)
-- [ ] GitHub Milestones created (1pt)
-- [ ] GitHub Issues created from user stories (2pts)
-- [ ] Issues added to project and assigned to specific team members (1pt)
+- [x] Networking (2pts)
+- [x] GitHub Project created (1pt)
+- [x] GitHub Milestones created (1pt)
+- [x] GitHub Issues created from user stories (2pts)
+- [x] Issues added to project and assigned to specific team members (1pt)
