@@ -18,8 +18,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="HELLO THIS IS HOME!!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="d17-28-0F9">
-                                <rect key="frame" x="119" y="438" width="177" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="HELLO THIS IS LOGIN!!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="d17-28-0F9">
+                                <rect key="frame" x="119" y="438" width="178" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
@@ -35,11 +35,11 @@
             </objects>
             <point key="canvasLocation" x="934.78260869565224" y="31.473214285714285"/>
         </scene>
-        <!--Home-->
+        <!--Login-->
         <scene sceneID="nS8-Ct-jhq">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="hel-UU-dQR" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Home" id="lEV-YX-YUz"/>
+                    <tabBarItem key="tabBarItem" title="Login" id="lEV-YX-YUz"/>
                     <toolbarItems/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="B8a-Tm-DWE">

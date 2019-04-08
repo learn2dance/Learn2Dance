@@ -18,8 +18,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="HELLO THIS IS DETAILS PAGE" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="68F-qt-gZJ">
-                                <rect key="frame" x="92" y="438" width="230" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="HELLO THIS IS STREAM PAGE" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="68F-qt-gZJ">
+                                <rect key="frame" x="92" y="438" width="232" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <nil key="textColor"/>
@@ -35,11 +35,11 @@
             </objects>
             <point key="canvasLocation" x="960.86956521739137" y="59.598214285714285"/>
         </scene>
-        <!--Details-->
+        <!--Stream-->
         <scene sceneID="ddN-TK-TpC">
             <objects>
                 <navigationController automaticallyAdjustsScrollViewInsets="NO" id="quN-jd-zlA" sceneMemberID="viewController">
-                    <tabBarItem key="tabBarItem" title="Details" id="obj-di-e1A"/>
+                    <tabBarItem key="tabBarItem" title="Stream" id="obj-di-e1A"/>
                     <toolbarItems/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="IGo-db-Xha">
