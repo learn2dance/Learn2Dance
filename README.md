@@ -138,3 +138,5 @@ Instructional dance video app
 - [x] Sprint planned for next week (Issues created, assigned & added to project board) (3pts)
 - [] Completed user stories checked-off in README (2pts)
 - [x] Gifs created to show build progress and added to README (3pts)
+
+<img src="http://g.recordit.co/9SucPDT8ot.gif" title="source: imgur.com" width=600>
