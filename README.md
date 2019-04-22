@@ -132,3 +132,9 @@ Instructional dance video app
 - [x] GitHub Milestones created (1pt)
 - [x] GitHub Issues created from user stories (2pts)
 - [x] Issues added to project and assigned to specific team members (1pt)
+
+### Updates
+- [x] Updated status of issues in Project board (2pts)
+- [x] Sprint planned for next week (Issues created, assigned & added to project board) (3pts)
+- []Completed user stories checked-off in README (2pts)
+- [x]Gifs created to show build progress and added to README (3pts)
