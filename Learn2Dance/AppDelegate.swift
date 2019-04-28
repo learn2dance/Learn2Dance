@@ -2,11 +2,12 @@
 //  AppDelegate.swift
 //  Learn2Dance
 //
-//  Created by Gabe Gaerlan on 4/8/19.
-//  Copyright © 2019 Gabe Gaerlan. All rights reserved.
+//  Created by William Hutt on 4/10/19.
+//  Copyright © 2019 William Hutt. All rights reserved.
 //
 
 import UIKit
+import Parse
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -16,6 +17,14 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        
+        Parse.initialize(
+            with: ParseClientConfiguration(block: { (configuration: ParseMutableClientConfiguration) -> Void in
+                configuration.applicationId = "l2d"
+                configuration.server = "https://secret-escarpment-14148.herokuapp.com/parse"
+            })
+        )
+        
         return true
     }
 
