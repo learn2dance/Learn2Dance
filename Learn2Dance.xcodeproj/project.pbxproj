@@ -7,143 +7,200 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D6B48912225BF4CC00A40CC6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6B48911225BF4CC00A40CC6 /* AppDelegate.swift */; };
-		D6B48914225BF4CC00A40CC6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6B48913225BF4CC00A40CC6 /* ViewController.swift */; };
-		D6B48917225BF4CC00A40CC6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6B48915225BF4CC00A40CC6 /* Main.storyboard */; };
-		D6B48919225BF4CD00A40CC6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D6B48918225BF4CD00A40CC6 /* Assets.xcassets */; };
-		D6B4891C225BF4CD00A40CC6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6B4891A225BF4CD00A40CC6 /* LaunchScreen.storyboard */; };
-		D6B48927225BF4CD00A40CC6 /* Learn2DanceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6B48926225BF4CD00A40CC6 /* Learn2DanceTests.swift */; };
-		D6B48932225BF4CD00A40CC6 /* Learn2DanceUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6B48931225BF4CD00A40CC6 /* Learn2DanceUITests.swift */; };
-		D6B48940225BF6D500A40CC6 /* Login.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6B4893F225BF6D500A40CC6 /* Login.storyboard */; };
-		D6B48942225BF79D00A40CC6 /* Stream.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6B48941225BF79D00A40CC6 /* Stream.storyboard */; };
-		D6D0EBD2225BFC2500A2DA93 /* Create.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D6D0EBD1225BFC2500A2DA93 /* Create.storyboard */; };
+		3F3516A3227668E8001943EA /* VideoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F3516A2227668E8001943EA /* VideoCell.swift */; };
+		3F69A5C2225E939C0033F794 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F69A5C1225E939C0033F794 /* AppDelegate.swift */; };
+		3F69A5C4225E939C0033F794 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F69A5C3225E939C0033F794 /* ViewController.swift */; };
+		3F69A5C7225E939C0033F794 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F69A5C5225E939C0033F794 /* Main.storyboard */; };
+		3F69A5C9225E939E0033F794 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F69A5C8225E939E0033F794 /* Assets.xcassets */; };
+		3F69A5CC225E939E0033F794 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F69A5CA225E939E0033F794 /* LaunchScreen.storyboard */; };
+		3F69A5D7225E939E0033F794 /* Learn2DanceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F69A5D6225E939E0033F794 /* Learn2DanceTests.swift */; };
+		3F69A5E2225E939E0033F794 /* Learn2DanceUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F69A5E1225E939E0033F794 /* Learn2DanceUITests.swift */; };
+		3F69A5F0225E93CD0033F794 /* Create.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F69A5EF225E93CD0033F794 /* Create.storyboard */; };
+		3F69A5F2225E93E70033F794 /* Stream.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F69A5F1225E93E70033F794 /* Stream.storyboard */; };
+		3F69A5F4225E998F0033F794 /* Detail.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F69A5F3225E998F0033F794 /* Detail.storyboard */; };
+		3F69A5F6225E9C550033F794 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F69A5F5225E9C550033F794 /* LoginViewController.swift */; };
+		3F69A5F8225E9D370033F794 /* CreateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F69A5F7225E9D370033F794 /* CreateViewController.swift */; };
+		3F69A5FA225E9D5D0033F794 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F69A5F9225E9D5D0033F794 /* DetailViewController.swift */; };
+		3F69A5FC225E9D6B0033F794 /* StreamViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F69A5FB225E9D6B0033F794 /* StreamViewController.swift */; };
+		44B255B95BE17CBFFB33F5BB /* Pods_Learn2DanceTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B9682A4C39DD25FBA5AC694 /* Pods_Learn2DanceTests.framework */; };
+		6C7A6567A61E67BA37FC0895 /* Pods_Learn2Dance.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC4997993BAB6B0661C9D6A0 /* Pods_Learn2Dance.framework */; };
+		BFDB843C055AFAEC671281F9 /* Pods_Learn2DanceUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0F125B59BB58B482463E84C /* Pods_Learn2DanceUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		D6B48923225BF4CD00A40CC6 /* PBXContainerItemProxy */ = {
+		3F69A5D3225E939E0033F794 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = D6B48906225BF4CC00A40CC6 /* Project object */;
+			containerPortal = 3F69A5B6225E939C0033F794 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = D6B4890D225BF4CC00A40CC6;
+			remoteGlobalIDString = 3F69A5BD225E939C0033F794;
 			remoteInfo = Learn2Dance;
 		};
-		D6B4892E225BF4CD00A40CC6 /* PBXContainerItemProxy */ = {
+		3F69A5DE225E939E0033F794 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = D6B48906225BF4CC00A40CC6 /* Project object */;
+			containerPortal = 3F69A5B6225E939C0033F794 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = D6B4890D225BF4CC00A40CC6;
+			remoteGlobalIDString = 3F69A5BD225E939C0033F794;
 			remoteInfo = Learn2Dance;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		D6B4890E225BF4CC00A40CC6 /* Learn2Dance.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Learn2Dance.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		D6B48911225BF4CC00A40CC6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D6B48913225BF4CC00A40CC6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		D6B48916225BF4CC00A40CC6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		D6B48918225BF4CD00A40CC6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		D6B4891B225BF4CD00A40CC6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		D6B4891D225BF4CD00A40CC6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D6B48922225BF4CD00A40CC6 /* Learn2DanceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Learn2DanceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		D6B48926225BF4CD00A40CC6 /* Learn2DanceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Learn2DanceTests.swift; sourceTree = "<group>"; };
-		D6B48928225BF4CD00A40CC6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D6B4892D225BF4CD00A40CC6 /* Learn2DanceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Learn2DanceUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		D6B48931225BF4CD00A40CC6 /* Learn2DanceUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Learn2DanceUITests.swift; sourceTree = "<group>"; };
-		D6B48933225BF4CD00A40CC6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D6B4893F225BF6D500A40CC6 /* Login.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Login.storyboard; sourceTree = "<group>"; };
-		D6B48941225BF79D00A40CC6 /* Stream.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Stream.storyboard; sourceTree = "<group>"; };
-		D6D0EBD1225BFC2500A2DA93 /* Create.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Create.storyboard; sourceTree = "<group>"; };
+		2F29062BBF7165807554C88E /* Pods-Learn2DanceTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Learn2DanceTests.release.xcconfig"; path = "Target Support Files/Pods-Learn2DanceTests/Pods-Learn2DanceTests.release.xcconfig"; sourceTree = "<group>"; };
+		3CEC85CED540CE56567E7C38 /* Pods-Learn2Dance.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Learn2Dance.release.xcconfig"; path = "Target Support Files/Pods-Learn2Dance/Pods-Learn2Dance.release.xcconfig"; sourceTree = "<group>"; };
+		3F3516A2227668E8001943EA /* VideoCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoCell.swift; sourceTree = "<group>"; };
+		3F69A5BE225E939C0033F794 /* Learn2Dance.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Learn2Dance.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F69A5C1225E939C0033F794 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3F69A5C3225E939C0033F794 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		3F69A5C6225E939C0033F794 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3F69A5C8225E939E0033F794 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3F69A5CB225E939E0033F794 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3F69A5CD225E939E0033F794 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F69A5D2225E939E0033F794 /* Learn2DanceTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Learn2DanceTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F69A5D6225E939E0033F794 /* Learn2DanceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Learn2DanceTests.swift; sourceTree = "<group>"; };
+		3F69A5D8225E939E0033F794 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F69A5DD225E939E0033F794 /* Learn2DanceUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Learn2DanceUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F69A5E1225E939E0033F794 /* Learn2DanceUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Learn2DanceUITests.swift; sourceTree = "<group>"; };
+		3F69A5E3225E939E0033F794 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3F69A5EF225E93CD0033F794 /* Create.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Create.storyboard; sourceTree = "<group>"; };
+		3F69A5F1225E93E70033F794 /* Stream.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Stream.storyboard; sourceTree = "<group>"; };
+		3F69A5F3225E998F0033F794 /* Detail.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Detail.storyboard; sourceTree = "<group>"; };
+		3F69A5F5225E9C550033F794 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		3F69A5F7225E9D370033F794 /* CreateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateViewController.swift; sourceTree = "<group>"; };
+		3F69A5F9225E9D5D0033F794 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		3F69A5FB225E9D6B0033F794 /* StreamViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StreamViewController.swift; sourceTree = "<group>"; };
+		7B9682A4C39DD25FBA5AC694 /* Pods_Learn2DanceTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Learn2DanceTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AC4997993BAB6B0661C9D6A0 /* Pods_Learn2Dance.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Learn2Dance.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B60A7E07A32D2809ADB4AFF5 /* Pods-Learn2DanceTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Learn2DanceTests.debug.xcconfig"; path = "Target Support Files/Pods-Learn2DanceTests/Pods-Learn2DanceTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C4EE11AAFB7B64BD2827DA9E /* Pods-Learn2DanceUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Learn2DanceUITests.debug.xcconfig"; path = "Target Support Files/Pods-Learn2DanceUITests/Pods-Learn2DanceUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		D07CADD6D11E4354089AF21E /* Pods-Learn2DanceUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Learn2DanceUITests.release.xcconfig"; path = "Target Support Files/Pods-Learn2DanceUITests/Pods-Learn2DanceUITests.release.xcconfig"; sourceTree = "<group>"; };
+		E1C76063A7F423C78F628094 /* Pods-Learn2Dance.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Learn2Dance.debug.xcconfig"; path = "Target Support Files/Pods-Learn2Dance/Pods-Learn2Dance.debug.xcconfig"; sourceTree = "<group>"; };
+		F0F125B59BB58B482463E84C /* Pods_Learn2DanceUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Learn2DanceUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		D6B4890B225BF4CC00A40CC6 /* Frameworks */ = {
+		3F69A5BB225E939C0033F794 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6C7A6567A61E67BA37FC0895 /* Pods_Learn2Dance.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D6B4891F225BF4CD00A40CC6 /* Frameworks */ = {
+		3F69A5CF225E939E0033F794 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				44B255B95BE17CBFFB33F5BB /* Pods_Learn2DanceTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D6B4892A225BF4CD00A40CC6 /* Frameworks */ = {
+		3F69A5DA225E939E0033F794 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BFDB843C055AFAEC671281F9 /* Pods_Learn2DanceUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		D6B48905225BF4CC00A40CC6 = {
+		3F69A5B5225E939C0033F794 = {
 			isa = PBXGroup;
 			children = (
-				D6B48910225BF4CC00A40CC6 /* Learn2Dance */,
-				D6B48925225BF4CD00A40CC6 /* Learn2DanceTests */,
-				D6B48930225BF4CD00A40CC6 /* Learn2DanceUITests */,
-				D6B4890F225BF4CC00A40CC6 /* Products */,
+				3F69A5C0225E939C0033F794 /* Learn2Dance */,
+				3F69A5D5225E939E0033F794 /* Learn2DanceTests */,
+				3F69A5E0225E939E0033F794 /* Learn2DanceUITests */,
+				3F69A5BF225E939C0033F794 /* Products */,
+				869EA5417E8A30FD415A2998 /* Pods */,
+				E958CEAA0C0E6B940F7660C0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
-		D6B4890F225BF4CC00A40CC6 /* Products */ = {
+		3F69A5BF225E939C0033F794 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D6B4890E225BF4CC00A40CC6 /* Learn2Dance.app */,
-				D6B48922225BF4CD00A40CC6 /* Learn2DanceTests.xctest */,
-				D6B4892D225BF4CD00A40CC6 /* Learn2DanceUITests.xctest */,
+				3F69A5BE225E939C0033F794 /* Learn2Dance.app */,
+				3F69A5D2225E939E0033F794 /* Learn2DanceTests.xctest */,
+				3F69A5DD225E939E0033F794 /* Learn2DanceUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		D6B48910225BF4CC00A40CC6 /* Learn2Dance */ = {
+		3F69A5C0225E939C0033F794 /* Learn2Dance */ = {
 			isa = PBXGroup;
 			children = (
-				D6B48911225BF4CC00A40CC6 /* AppDelegate.swift */,
-				D6B48913225BF4CC00A40CC6 /* ViewController.swift */,
-				D6B48915225BF4CC00A40CC6 /* Main.storyboard */,
-				D6D0EBD1225BFC2500A2DA93 /* Create.storyboard */,
-				D6B48941225BF79D00A40CC6 /* Stream.storyboard */,
-				D6B4893F225BF6D500A40CC6 /* Login.storyboard */,
-				D6B48918225BF4CD00A40CC6 /* Assets.xcassets */,
-				D6B4891A225BF4CD00A40CC6 /* LaunchScreen.storyboard */,
-				D6B4891D225BF4CD00A40CC6 /* Info.plist */,
+				3F69A5C1225E939C0033F794 /* AppDelegate.swift */,
+				3F69A5C3225E939C0033F794 /* ViewController.swift */,
+				3F69A5F5225E9C550033F794 /* LoginViewController.swift */,
+				3F69A5C5225E939C0033F794 /* Main.storyboard */,
+				3F69A5EF225E93CD0033F794 /* Create.storyboard */,
+				3F69A5F7225E9D370033F794 /* CreateViewController.swift */,
+				3F69A5F9225E9D5D0033F794 /* DetailViewController.swift */,
+				3F69A5FB225E9D6B0033F794 /* StreamViewController.swift */,
+				3F69A5F3225E998F0033F794 /* Detail.storyboard */,
+				3F69A5C8225E939E0033F794 /* Assets.xcassets */,
+				3F69A5CA225E939E0033F794 /* LaunchScreen.storyboard */,
+				3F69A5CD225E939E0033F794 /* Info.plist */,
+				3F69A5F1225E93E70033F794 /* Stream.storyboard */,
+				3F3516A2227668E8001943EA /* VideoCell.swift */,
 			);
 			path = Learn2Dance;
 			sourceTree = "<group>";
 		};
-		D6B48925225BF4CD00A40CC6 /* Learn2DanceTests */ = {
+		3F69A5D5225E939E0033F794 /* Learn2DanceTests */ = {
 			isa = PBXGroup;
 			children = (
-				D6B48926225BF4CD00A40CC6 /* Learn2DanceTests.swift */,
-				D6B48928225BF4CD00A40CC6 /* Info.plist */,
+				3F69A5D6225E939E0033F794 /* Learn2DanceTests.swift */,
+				3F69A5D8225E939E0033F794 /* Info.plist */,
 			);
 			path = Learn2DanceTests;
 			sourceTree = "<group>";
 		};
-		D6B48930225BF4CD00A40CC6 /* Learn2DanceUITests */ = {
+		3F69A5E0225E939E0033F794 /* Learn2DanceUITests */ = {
 			isa = PBXGroup;
 			children = (
-				D6B48931225BF4CD00A40CC6 /* Learn2DanceUITests.swift */,
-				D6B48933225BF4CD00A40CC6 /* Info.plist */,
+				3F69A5E1225E939E0033F794 /* Learn2DanceUITests.swift */,
+				3F69A5E3225E939E0033F794 /* Info.plist */,
 			);
 			path = Learn2DanceUITests;
+			sourceTree = "<group>";
+		};
+		869EA5417E8A30FD415A2998 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E1C76063A7F423C78F628094 /* Pods-Learn2Dance.debug.xcconfig */,
+				3CEC85CED540CE56567E7C38 /* Pods-Learn2Dance.release.xcconfig */,
+				B60A7E07A32D2809ADB4AFF5 /* Pods-Learn2DanceTests.debug.xcconfig */,
+				2F29062BBF7165807554C88E /* Pods-Learn2DanceTests.release.xcconfig */,
+				C4EE11AAFB7B64BD2827DA9E /* Pods-Learn2DanceUITests.debug.xcconfig */,
+				D07CADD6D11E4354089AF21E /* Pods-Learn2DanceUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E958CEAA0C0E6B940F7660C0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AC4997993BAB6B0661C9D6A0 /* Pods_Learn2Dance.framework */,
+				7B9682A4C39DD25FBA5AC694 /* Pods_Learn2DanceTests.framework */,
+				F0F125B59BB58B482463E84C /* Pods_Learn2DanceUITests.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		D6B4890D225BF4CC00A40CC6 /* Learn2Dance */ = {
+		3F69A5BD225E939C0033F794 /* Learn2Dance */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D6B48936225BF4CD00A40CC6 /* Build configuration list for PBXNativeTarget "Learn2Dance" */;
+			buildConfigurationList = 3F69A5E6225E939E0033F794 /* Build configuration list for PBXNativeTarget "Learn2Dance" */;
 			buildPhases = (
-				D6B4890A225BF4CC00A40CC6 /* Sources */,
-				D6B4890B225BF4CC00A40CC6 /* Frameworks */,
-				D6B4890C225BF4CC00A40CC6 /* Resources */,
+				9217BBFCBC6E2698774CD53F /* [CP] Check Pods Manifest.lock */,
+				3F69A5BA225E939C0033F794 /* Sources */,
+				3F69A5BB225E939C0033F794 /* Frameworks */,
+				3F69A5BC225E939C0033F794 /* Resources */,
+				D250849D737B6EC589774A61 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -151,69 +208,71 @@
 			);
 			name = Learn2Dance;
 			productName = Learn2Dance;
-			productReference = D6B4890E225BF4CC00A40CC6 /* Learn2Dance.app */;
+			productReference = 3F69A5BE225E939C0033F794 /* Learn2Dance.app */;
 			productType = "com.apple.product-type.application";
 		};
-		D6B48921225BF4CD00A40CC6 /* Learn2DanceTests */ = {
+		3F69A5D1225E939E0033F794 /* Learn2DanceTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D6B48939225BF4CD00A40CC6 /* Build configuration list for PBXNativeTarget "Learn2DanceTests" */;
+			buildConfigurationList = 3F69A5E9225E939E0033F794 /* Build configuration list for PBXNativeTarget "Learn2DanceTests" */;
 			buildPhases = (
-				D6B4891E225BF4CD00A40CC6 /* Sources */,
-				D6B4891F225BF4CD00A40CC6 /* Frameworks */,
-				D6B48920225BF4CD00A40CC6 /* Resources */,
+				0A5FD90630BD93B1DDCF7981 /* [CP] Check Pods Manifest.lock */,
+				3F69A5CE225E939E0033F794 /* Sources */,
+				3F69A5CF225E939E0033F794 /* Frameworks */,
+				3F69A5D0225E939E0033F794 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				D6B48924225BF4CD00A40CC6 /* PBXTargetDependency */,
+				3F69A5D4225E939E0033F794 /* PBXTargetDependency */,
 			);
 			name = Learn2DanceTests;
 			productName = Learn2DanceTests;
-			productReference = D6B48922225BF4CD00A40CC6 /* Learn2DanceTests.xctest */;
+			productReference = 3F69A5D2225E939E0033F794 /* Learn2DanceTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		D6B4892C225BF4CD00A40CC6 /* Learn2DanceUITests */ = {
+		3F69A5DC225E939E0033F794 /* Learn2DanceUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D6B4893C225BF4CD00A40CC6 /* Build configuration list for PBXNativeTarget "Learn2DanceUITests" */;
+			buildConfigurationList = 3F69A5EC225E939E0033F794 /* Build configuration list for PBXNativeTarget "Learn2DanceUITests" */;
 			buildPhases = (
-				D6B48929225BF4CD00A40CC6 /* Sources */,
-				D6B4892A225BF4CD00A40CC6 /* Frameworks */,
-				D6B4892B225BF4CD00A40CC6 /* Resources */,
+				92CB4B0DBEA10DC2949F3D82 /* [CP] Check Pods Manifest.lock */,
+				3F69A5D9225E939E0033F794 /* Sources */,
+				3F69A5DA225E939E0033F794 /* Frameworks */,
+				3F69A5DB225E939E0033F794 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				D6B4892F225BF4CD00A40CC6 /* PBXTargetDependency */,
+				3F69A5DF225E939E0033F794 /* PBXTargetDependency */,
 			);
 			name = Learn2DanceUITests;
 			productName = Learn2DanceUITests;
-			productReference = D6B4892D225BF4CD00A40CC6 /* Learn2DanceUITests.xctest */;
+			productReference = 3F69A5DD225E939E0033F794 /* Learn2DanceUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		D6B48906225BF4CC00A40CC6 /* Project object */ = {
+		3F69A5B6225E939C0033F794 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1020;
-				LastUpgradeCheck = 1020;
-				ORGANIZATIONNAME = "Gabe Gaerlan";
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = "William Hutt";
 				TargetAttributes = {
-					D6B4890D225BF4CC00A40CC6 = {
-						CreatedOnToolsVersion = 10.2;
+					3F69A5BD225E939C0033F794 = {
+						CreatedOnToolsVersion = 10.1;
 					};
-					D6B48921225BF4CD00A40CC6 = {
-						CreatedOnToolsVersion = 10.2;
-						TestTargetID = D6B4890D225BF4CC00A40CC6;
+					3F69A5D1225E939E0033F794 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 3F69A5BD225E939C0033F794;
 					};
-					D6B4892C225BF4CD00A40CC6 = {
-						CreatedOnToolsVersion = 10.2;
-						TestTargetID = D6B4890D225BF4CC00A40CC6;
+					3F69A5DC225E939E0033F794 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 3F69A5BD225E939C0033F794;
 					};
 				};
 			};
-			buildConfigurationList = D6B48909225BF4CC00A40CC6 /* Build configuration list for PBXProject "Learn2Dance" */;
+			buildConfigurationList = 3F69A5B9225E939C0033F794 /* Build configuration list for PBXProject "Learn2Dance" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -221,40 +280,40 @@
 				en,
 				Base,
 			);
-			mainGroup = D6B48905225BF4CC00A40CC6;
-			productRefGroup = D6B4890F225BF4CC00A40CC6 /* Products */;
+			mainGroup = 3F69A5B5225E939C0033F794;
+			productRefGroup = 3F69A5BF225E939C0033F794 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D6B4890D225BF4CC00A40CC6 /* Learn2Dance */,
-				D6B48921225BF4CD00A40CC6 /* Learn2DanceTests */,
-				D6B4892C225BF4CD00A40CC6 /* Learn2DanceUITests */,
+				3F69A5BD225E939C0033F794 /* Learn2Dance */,
+				3F69A5D1225E939E0033F794 /* Learn2DanceTests */,
+				3F69A5DC225E939E0033F794 /* Learn2DanceUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		D6B4890C225BF4CC00A40CC6 /* Resources */ = {
+		3F69A5BC225E939C0033F794 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D6B48940225BF6D500A40CC6 /* Login.storyboard in Resources */,
-				D6B4891C225BF4CD00A40CC6 /* LaunchScreen.storyboard in Resources */,
-				D6B48919225BF4CD00A40CC6 /* Assets.xcassets in Resources */,
-				D6B48917225BF4CC00A40CC6 /* Main.storyboard in Resources */,
-				D6D0EBD2225BFC2500A2DA93 /* Create.storyboard in Resources */,
-				D6B48942225BF79D00A40CC6 /* Stream.storyboard in Resources */,
+				3F69A5F0225E93CD0033F794 /* Create.storyboard in Resources */,
+				3F69A5CC225E939E0033F794 /* LaunchScreen.storyboard in Resources */,
+				3F69A5F2225E93E70033F794 /* Stream.storyboard in Resources */,
+				3F69A5C9225E939E0033F794 /* Assets.xcassets in Resources */,
+				3F69A5C7225E939C0033F794 /* Main.storyboard in Resources */,
+				3F69A5F4225E998F0033F794 /* Detail.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D6B48920225BF4CD00A40CC6 /* Resources */ = {
+		3F69A5D0225E939E0033F794 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D6B4892B225BF4CD00A40CC6 /* Resources */ = {
+		3F69A5DB225E939E0033F794 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -263,60 +322,162 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		0A5FD90630BD93B1DDCF7981 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Learn2DanceTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9217BBFCBC6E2698774CD53F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Learn2Dance-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		92CB4B0DBEA10DC2949F3D82 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Learn2DanceUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D250849D737B6EC589774A61 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Learn2Dance/Pods-Learn2Dance-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireImage/AlamofireImage.framework",
+				"${BUILT_PRODUCTS_DIR}/Bolts/Bolts.framework",
+				"${BUILT_PRODUCTS_DIR}/Parse/Parse.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireImage.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Bolts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Parse.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Learn2Dance/Pods-Learn2Dance-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
-		D6B4890A225BF4CC00A40CC6 /* Sources */ = {
+		3F69A5BA225E939C0033F794 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D6B48914225BF4CC00A40CC6 /* ViewController.swift in Sources */,
-				D6B48912225BF4CC00A40CC6 /* AppDelegate.swift in Sources */,
+				3F69A5F8225E9D370033F794 /* CreateViewController.swift in Sources */,
+				3F3516A3227668E8001943EA /* VideoCell.swift in Sources */,
+				3F69A5F6225E9C550033F794 /* LoginViewController.swift in Sources */,
+				3F69A5FC225E9D6B0033F794 /* StreamViewController.swift in Sources */,
+				3F69A5FA225E9D5D0033F794 /* DetailViewController.swift in Sources */,
+				3F69A5C4225E939C0033F794 /* ViewController.swift in Sources */,
+				3F69A5C2225E939C0033F794 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D6B4891E225BF4CD00A40CC6 /* Sources */ = {
+		3F69A5CE225E939E0033F794 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D6B48927225BF4CD00A40CC6 /* Learn2DanceTests.swift in Sources */,
+				3F69A5D7225E939E0033F794 /* Learn2DanceTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D6B48929225BF4CD00A40CC6 /* Sources */ = {
+		3F69A5D9225E939E0033F794 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D6B48932225BF4CD00A40CC6 /* Learn2DanceUITests.swift in Sources */,
+				3F69A5E2225E939E0033F794 /* Learn2DanceUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		D6B48924225BF4CD00A40CC6 /* PBXTargetDependency */ = {
+		3F69A5D4225E939E0033F794 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = D6B4890D225BF4CC00A40CC6 /* Learn2Dance */;
-			targetProxy = D6B48923225BF4CD00A40CC6 /* PBXContainerItemProxy */;
+			target = 3F69A5BD225E939C0033F794 /* Learn2Dance */;
+			targetProxy = 3F69A5D3225E939E0033F794 /* PBXContainerItemProxy */;
 		};
-		D6B4892F225BF4CD00A40CC6 /* PBXTargetDependency */ = {
+		3F69A5DF225E939E0033F794 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = D6B4890D225BF4CC00A40CC6 /* Learn2Dance */;
-			targetProxy = D6B4892E225BF4CD00A40CC6 /* PBXContainerItemProxy */;
+			target = 3F69A5BD225E939C0033F794 /* Learn2Dance */;
+			targetProxy = 3F69A5DE225E939E0033F794 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		D6B48915225BF4CC00A40CC6 /* Main.storyboard */ = {
+		3F69A5C5225E939C0033F794 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				D6B48916225BF4CC00A40CC6 /* Base */,
+				3F69A5C6225E939C0033F794 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		D6B4891A225BF4CD00A40CC6 /* LaunchScreen.storyboard */ = {
+		3F69A5CA225E939E0033F794 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				D6B4891B225BF4CD00A40CC6 /* Base */,
+				3F69A5CB225E939E0033F794 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -324,7 +485,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		D6B48934225BF4CD00A40CC6 /* Debug */ = {
+		3F69A5E4225E939E0033F794 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -375,7 +536,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -385,7 +546,7 @@
 			};
 			name = Debug;
 		};
-		D6B48935225BF4CD00A40CC6 /* Release */ = {
+		3F69A5E5225E939E0033F794 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -430,7 +591,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -440,8 +601,9 @@
 			};
 			name = Release;
 		};
-		D6B48937225BF4CD00A40CC6 /* Debug */ = {
+		3F69A5E7225E939E0033F794 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E1C76063A7F423C78F628094 /* Pods-Learn2Dance.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -450,15 +612,16 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = ggaerlan.Learn2Dance;
+				PRODUCT_BUNDLE_IDENTIFIER = whutt.Learn2Dance;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
-		D6B48938225BF4CD00A40CC6 /* Release */ = {
+		3F69A5E8225E939E0033F794 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3CEC85CED540CE56567E7C38 /* Pods-Learn2Dance.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -467,15 +630,16 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = ggaerlan.Learn2Dance;
+				PRODUCT_BUNDLE_IDENTIFIER = whutt.Learn2Dance;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
-		D6B4893A225BF4CD00A40CC6 /* Debug */ = {
+		3F69A5EA225E939E0033F794 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B60A7E07A32D2809ADB4AFF5 /* Pods-Learn2DanceTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -486,16 +650,17 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = ggaerlan.Learn2DanceTests;
+				PRODUCT_BUNDLE_IDENTIFIER = whutt.Learn2DanceTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Learn2Dance.app/Learn2Dance";
 			};
 			name = Debug;
 		};
-		D6B4893B225BF4CD00A40CC6 /* Release */ = {
+		3F69A5EB225E939E0033F794 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2F29062BBF7165807554C88E /* Pods-Learn2DanceTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -506,16 +671,17 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = ggaerlan.Learn2DanceTests;
+				PRODUCT_BUNDLE_IDENTIFIER = whutt.Learn2DanceTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Learn2Dance.app/Learn2Dance";
 			};
 			name = Release;
 		};
-		D6B4893D225BF4CD00A40CC6 /* Debug */ = {
+		3F69A5ED225E939E0033F794 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C4EE11AAFB7B64BD2827DA9E /* Pods-Learn2DanceUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -525,16 +691,17 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = ggaerlan.Learn2DanceUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = whutt.Learn2DanceUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = Learn2Dance;
 			};
 			name = Debug;
 		};
-		D6B4893E225BF4CD00A40CC6 /* Release */ = {
+		3F69A5EE225E939E0033F794 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D07CADD6D11E4354089AF21E /* Pods-Learn2DanceUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -544,9 +711,9 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = ggaerlan.Learn2DanceUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = whutt.Learn2DanceUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
+				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = Learn2Dance;
 			};
@@ -555,43 +722,43 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		D6B48909225BF4CC00A40CC6 /* Build configuration list for PBXProject "Learn2Dance" */ = {
+		3F69A5B9225E939C0033F794 /* Build configuration list for PBXProject "Learn2Dance" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D6B48934225BF4CD00A40CC6 /* Debug */,
-				D6B48935225BF4CD00A40CC6 /* Release */,
+				3F69A5E4225E939E0033F794 /* Debug */,
+				3F69A5E5225E939E0033F794 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D6B48936225BF4CD00A40CC6 /* Build configuration list for PBXNativeTarget "Learn2Dance" */ = {
+		3F69A5E6225E939E0033F794 /* Build configuration list for PBXNativeTarget "Learn2Dance" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D6B48937225BF4CD00A40CC6 /* Debug */,
-				D6B48938225BF4CD00A40CC6 /* Release */,
+				3F69A5E7225E939E0033F794 /* Debug */,
+				3F69A5E8225E939E0033F794 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D6B48939225BF4CD00A40CC6 /* Build configuration list for PBXNativeTarget "Learn2DanceTests" */ = {
+		3F69A5E9225E939E0033F794 /* Build configuration list for PBXNativeTarget "Learn2DanceTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D6B4893A225BF4CD00A40CC6 /* Debug */,
-				D6B4893B225BF4CD00A40CC6 /* Release */,
+				3F69A5EA225E939E0033F794 /* Debug */,
+				3F69A5EB225E939E0033F794 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D6B4893C225BF4CD00A40CC6 /* Build configuration list for PBXNativeTarget "Learn2DanceUITests" */ = {
+		3F69A5EC225E939E0033F794 /* Build configuration list for PBXNativeTarget "Learn2DanceUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D6B4893D225BF4CD00A40CC6 /* Debug */,
-				D6B4893E225BF4CD00A40CC6 /* Release */,
+				3F69A5ED225E939E0033F794 /* Debug */,
+				3F69A5EE225E939E0033F794 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = D6B48906225BF4CC00A40CC6 /* Project object */;
+	rootObject = 3F69A5B6225E939C0033F794 /* Project object */;
 }
