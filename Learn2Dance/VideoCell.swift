@@ -10,6 +10,7 @@ import UIKit
 import WebKit
 class VideoCell: UITableViewCell {
 
+    @IBOutlet weak var descriptionLabel: UILabel!
     @IBOutlet weak var userLabel: UILabel!
     @IBOutlet weak var embeddedView: WKWebView!
     override func awakeFromNib() {
