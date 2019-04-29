@@ -139,4 +139,6 @@ Instructional dance video app
 - [x] Completed user stories checked-off in README (2pts)
 - [x] Gifs created to show build progress and added to README (3pts)
 
-<img src="http://g.recordit.co/9SucPDT8ot.gif"  width=300>
+<img src="http://g.recordit.co/9SucPDT8ot.gif" width=300>
+<img src="http://g.recordit.co/y2DqHOWKhT.gif" width=300>
+
