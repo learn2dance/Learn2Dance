@@ -10,10 +10,10 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--Stream View Controller-->
+        <!--Stream-->
         <scene sceneID="ePc-QT-n3F">
             <objects>
-                <viewController id="eeT-aB-4Wi" customClass="StreamViewController" customModule="Learn2Dance" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="Stream" id="eeT-aB-4Wi" customClass="StreamViewController" customModule="Learn2Dance" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="XSq-zh-WEe">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -23,49 +23,51 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <prototypes>
-                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="VideoCell" rowHeight="204" id="w0v-zb-tvY" customClass="VideoCell" customModule="Learn2Dance" customModuleProvider="target">
-                                        <rect key="frame" x="0.0" y="28" width="375" height="204"/>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" reuseIdentifier="VideoCell" rowHeight="291" id="w0v-zb-tvY" customClass="VideoCell" customModule="Learn2Dance" customModuleProvider="target">
+                                        <rect key="frame" x="0.0" y="28" width="375" height="291"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="w0v-zb-tvY" id="kll-W6-QMe">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="203.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="290.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <wkWebView contentMode="scaleAspectFill" translatesAutoresizingMaskIntoConstraints="NO" id="aJv-iW-GnQ">
-                                                    <rect key="frame" x="55" y="11" width="282" height="147"/>
+                                                    <rect key="frame" x="8" y="8" width="359" height="246.5"/>
                                                     <color key="backgroundColor" red="0.36078431370000003" green="0.38823529410000002" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <constraints>
-                                                        <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="147" id="20y-rm-toM"/>
-                                                        <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="282" id="ElH-V4-p0G"/>
-                                                        <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="282" id="NSJ-ai-7xZ"/>
-                                                        <constraint firstAttribute="width" constant="282" id="d43-wm-yKX"/>
-                                                        <constraint firstAttribute="width" secondItem="aJv-iW-GnQ" secondAttribute="height" multiplier="94:49" id="ekL-ZC-Syd"/>
-                                                        <constraint firstAttribute="width" secondItem="aJv-iW-GnQ" secondAttribute="height" multiplier="94:49" id="t2l-k2-klm"/>
-                                                        <constraint firstAttribute="height" constant="147" id="xF1-gc-xU1"/>
-                                                        <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="147" id="xG2-U1-POw"/>
+                                                        <constraint firstAttribute="width" secondItem="aJv-iW-GnQ" secondAttribute="height" multiplier="307:211" id="XX3-b2-XaE"/>
                                                     </constraints>
                                                     <wkWebViewConfiguration key="configuration">
                                                         <audiovisualMediaTypes key="mediaTypesRequiringUserActionForPlayback" none="YES"/>
                                                         <wkPreferences key="preferences"/>
                                                     </wkWebViewConfiguration>
                                                 </wkWebView>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="User" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Kaf-ID-0b3">
-                                                    <rect key="frame" x="8" y="166" width="59" height="21"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="User" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Kaf-ID-0b3">
+                                                    <rect key="frame" x="8" y="262.5" width="36.5" height="21"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Description goes here" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PnS-hj-OF9">
+                                                    <rect key="frame" x="52.5" y="262.5" width="168" height="20"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                     <nil key="textColor"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
                                             </subviews>
                                             <constraints>
-                                                <constraint firstItem="Kaf-ID-0b3" firstAttribute="leading" secondItem="kll-W6-QMe" secondAttribute="leading" constant="8" id="AI2-Zi-Yv0"/>
-                                                <constraint firstItem="aJv-iW-GnQ" firstAttribute="top" secondItem="kll-W6-QMe" secondAttribute="topMargin" id="DPS-gG-80l"/>
-                                                <constraint firstAttribute="trailing" secondItem="Kaf-ID-0b3" secondAttribute="trailing" constant="308" id="MCe-mP-92n"/>
-                                                <constraint firstAttribute="bottomMargin" secondItem="Kaf-ID-0b3" secondAttribute="bottom" constant="6" id="WPG-IS-y0M"/>
-                                                <constraint firstAttribute="trailing" secondItem="aJv-iW-GnQ" secondAttribute="trailing" constant="38" id="uFC-r8-KP4"/>
-                                                <constraint firstItem="aJv-iW-GnQ" firstAttribute="leading" secondItem="kll-W6-QMe" secondAttribute="leading" constant="55" id="ucH-gb-zvu"/>
-                                                <constraint firstItem="Kaf-ID-0b3" firstAttribute="top" secondItem="aJv-iW-GnQ" secondAttribute="bottom" constant="8" symbolic="YES" id="w4z-V6-CXr"/>
+                                                <constraint firstItem="PnS-hj-OF9" firstAttribute="leading" secondItem="Kaf-ID-0b3" secondAttribute="trailing" constant="8" id="8AE-Cr-570"/>
+                                                <constraint firstAttribute="trailing" secondItem="PnS-hj-OF9" secondAttribute="trailing" constant="8" id="AyZ-J0-IZJ"/>
+                                                <constraint firstItem="aJv-iW-GnQ" firstAttribute="leading" secondItem="kll-W6-QMe" secondAttribute="leading" constant="8" id="EpK-4r-Wla"/>
+                                                <constraint firstItem="aJv-iW-GnQ" firstAttribute="top" secondItem="kll-W6-QMe" secondAttribute="top" constant="8" id="HyY-oz-WjQ"/>
+                                                <constraint firstItem="Kaf-ID-0b3" firstAttribute="leading" secondItem="kll-W6-QMe" secondAttribute="leading" constant="8" id="Kj4-7B-z4R"/>
+                                                <constraint firstItem="PnS-hj-OF9" firstAttribute="top" secondItem="aJv-iW-GnQ" secondAttribute="bottom" constant="8" id="VZC-bw-nG4"/>
+                                                <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="PnS-hj-OF9" secondAttribute="bottom" constant="8" id="kzP-LN-jJb"/>
+                                                <constraint firstAttribute="trailing" secondItem="aJv-iW-GnQ" secondAttribute="trailing" constant="8" id="ulY-LJ-4cS"/>
+                                                <constraint firstItem="Kaf-ID-0b3" firstAttribute="top" secondItem="aJv-iW-GnQ" secondAttribute="bottom" constant="8" id="xmR-BA-omP"/>
                                             </constraints>
                                         </tableViewCellContentView>
                                         <connections>
+                                            <outlet property="descriptionLabel" destination="PnS-hj-OF9" id="kpA-Of-lev"/>
                                             <outlet property="embeddedView" destination="aJv-iW-GnQ" id="j0A-GE-ua7"/>
                                             <outlet property="userLabel" destination="Kaf-ID-0b3" id="eqw-II-wWZ"/>
                                         </connections>
