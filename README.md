@@ -1,4 +1,4 @@
-Group Project - README Template
+xGroup Project - README Template
 ===
 
 # Learn2Dance
