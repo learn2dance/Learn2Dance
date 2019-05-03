@@ -7,6 +7,7 @@
 //
 
 import UIKit
+import Parse
 
 class CreateViewController: UIViewController {
 
@@ -21,6 +22,20 @@ class CreateViewController: UIViewController {
     
 
     @IBAction func onUpload(_ sender: Any) {
+        let video = PFObject(className: "Video")
+        
+        video["link"] = linkText.text!
+        video["description"] = descriptionText.text!
+        
+        video.saveInBackground(){
+            (success, error) in
+            if success{
+              print("saved")
+            }
+            else {
+                print("error!")
+            }
+        }
     }
     /*
     // MARK: - Navigation
