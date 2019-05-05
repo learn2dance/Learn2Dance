@@ -22,14 +22,18 @@ class CreateViewController: UIViewController {
     
 
     @IBAction func onUpload(_ sender: Any) {
-        let video = PFObject(className: "Video")
         
-        video["link"] = linkText.text!
-        video["description"] = descriptionText.text!
         
-        video.saveInBackground(){
+        let post = PFObject(className: "Posts")
+
+        post["link"] = linkText.text!
+        post["description"] = descriptionText.text!
+        post["author"] = PFUser.current()!
+ 
+        post.saveInBackground(){
             (success, error) in
-            if success{
+            if success {
+              self.dismiss(animated: true, completion: nil)
               print("saved")
             }
             else {
