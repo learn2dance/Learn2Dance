@@ -13,7 +13,7 @@ class StreamViewController: UIViewController, UITableViewDelegate, UITableViewDa
     
     @IBOutlet weak var tableView: UITableView!
     
-    //    var posts = [PFObject]()
+    var posts = [PFObject]()
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -23,38 +23,35 @@ class StreamViewController: UIViewController, UITableViewDelegate, UITableViewDa
         // Do any additional setup after loading the view.
     }
     
-    // for when we use parse
     
-    //    override func viewDidAppear(_ animated: Bool) {
-    //        super.viewDidAppear(animated)
-    //        let query = PFQuery(className: "Posts")
-    //        query.includeKey("author")
-    //        query.limit = 20
-    //
-    //        query.findObjectsInBackground { (posts, error) in
-    //            if posts != nil {
-    //                self.posts = posts!
-    //                self.tableView.reloadData()
-    //            }
-    //        }
-    //    }
+        override func viewDidAppear(_ animated: Bool) {
+            super.viewDidAppear(animated)
+            let query = PFQuery(className: "Posts")
+            query.includeKey("author")
+            query.limit = 20
+    
+            query.findObjectsInBackground { (posts, error) in
+                if posts != nil {
+                    self.posts = posts!
+                    self.tableView.reloadData()
+                }
+            }
+        }
     
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        //        return posts.count;
-        return 1;
+        return posts.count;
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "VideoCell") as! VideoCell
         
-        //        let post = posts[indexPath.row]
-        //        let user = post["author"] as! PFUser
-        //        cell.userLabel.text = user.username
-        //        cell.descriptionLabel.text = post["caption"] as! String
-        //        let url = URL(string: "https://www.youtube.com/embed/\(videoCode)")
-        let url = URL(string: "https://www.youtube.com/embed/JyGGLB542ks")
-        cell.embeddedView.load(URLRequest(url:url!))
-        cell.userLabel.text = "Will"
+                let post = posts[indexPath.row]
+                let user = post["author"] as! PFUser
+                cell.userLabel.text = user.username
+                cell.descriptionLabel.text = post["description"] as! String
+                let link = post["link"] as! String
+                let url = URL(string: link)!
+                cell.embeddedView.load(URLRequest(url:url))
         
         return cell
     }
@@ -68,5 +65,18 @@ class StreamViewController: UIViewController, UITableViewDelegate, UITableViewDa
      // Pass the selected object to the new view controller.
      }
      */
+    
+    
+    @IBAction func onLogout(_ sender: Any) {
+        
+        PFUser.logOut()
+        
+        let main = UIStoryboard(name: "Main", bundle: nil)
+        let loginView = main.instantiateViewController(withIdentifier: "LoginView")
+        
+        let delegate = UIApplication.shared.delegate as! AppDelegate
+        delegate.window?.rootViewController = loginView
+        
+    }
     
 }
