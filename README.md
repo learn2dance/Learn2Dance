@@ -33,14 +33,13 @@ Instructional dance video app
 * User can register an account
 * User can view list of videos with dances
 * User can watch individual videos
-* Instructors can upload videos
+* Users can upload videos
 
 
 **Optional Nice-to-have Stories**
 
 * Profile page/Setting page
 * Category of videos
-* User can upload videos
 * Ranking system
 * Comments on videos
 * Playlist 
@@ -55,7 +54,7 @@ Instructional dance video app
 * Detail 
     * User can watch individual videos
 * Creation
-    * Instructors can upload videos
+    * Users can upload videos
 
 ### 3. Navigation
 
@@ -74,7 +73,7 @@ Instructional dance video app
  * Detail
  * Create
  * Profile 
-* Creation - Instructors can upload videos
+* Creation - Users can upload videos
  * Stream
 * Detail - Viewing particular videos
  * Stream
@@ -90,8 +89,7 @@ Instructional dance video app
    | ------------- | -------- | ------------|
    | username      | String   | Unique id for the user |
    | password      | String   | Credentials |
-   | image         | File     | Image that instructors post |
-   | description   | String   | Caption by instructor |
+   | description   | String   | Caption by user |
    | embeded link  | String   | Link to a youtube video |
    
 ### Networking
