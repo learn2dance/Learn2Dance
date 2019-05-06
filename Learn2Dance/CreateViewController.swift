@@ -29,15 +29,40 @@ class CreateViewController: UIViewController {
         post["link"] = linkText.text!
         post["description"] = descriptionText.text!
         post["author"] = PFUser.current()!
+        
+        let a = linkText.text! + " uploaded"
+        let b = linkText.text! + " failed"
  
         post.saveInBackground(){
             (success, error) in
             if success {
               self.dismiss(animated: true, completion: nil)
               print("saved")
+                
+                let alertController = UIAlertController(title: "success", message: a, preferredStyle: .alert)
+                
+                let action1 = UIAlertAction(title: "ok", style: .default) { (action:UIAlertAction) in
+                    print("You've pressed ok");
+                }
+                
+                alertController.addAction(action1)
+          
+                self.present(alertController, animated: true, completion: nil)
             }
             else {
                 print("error!")
+                
+                let alertController = UIAlertController(title: "error", message: b, preferredStyle: .alert)
+                
+                
+                let action2 = UIAlertAction(title: "error", style: .destructive) { (action:UIAlertAction) in
+                    print("error");
+                }
+                
+            
+                alertController.addAction(action2)
+                
+                self.present(alertController, animated: true, completion: nil)
             }
         }
     }
