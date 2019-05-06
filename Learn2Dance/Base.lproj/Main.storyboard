@@ -99,20 +99,20 @@
             </objects>
             <point key="canvasLocation" x="1018" y="134"/>
         </scene>
-        <!--Create-->
+        <!--Stream-->
         <scene sceneID="7Mb-cf-37q">
             <objects>
-                <viewControllerPlaceholder storyboardName="Create" id="thl-oQ-Mtk" sceneMemberID="viewController">
+                <viewControllerPlaceholder storyboardName="Stream" id="thl-oQ-Mtk" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Create" id="WUb-oN-8lP"/>
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Gzg-AX-8Zo" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="1802" y="-102"/>
         </scene>
-        <!--Stream-->
+        <!--Create-->
         <scene sceneID="i6y-Bt-J1g">
             <objects>
-                <viewControllerPlaceholder storyboardIdentifier="StreamNavigationController" storyboardName="Stream" id="2xJ-Yg-Mj2" sceneMemberID="viewController">
+                <viewControllerPlaceholder storyboardIdentifier="StreamNavigationController" storyboardName="Create" id="2xJ-Yg-Mj2" sceneMemberID="viewController">
                     <tabBarItem key="tabBarItem" title="Stream" id="vlb-pN-YvG"/>
                 </viewControllerPlaceholder>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cDM-0k-ARy" userLabel="First Responder" sceneMemberID="firstResponder"/>
