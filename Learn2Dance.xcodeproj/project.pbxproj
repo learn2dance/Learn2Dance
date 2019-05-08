@@ -17,10 +17,8 @@
 		3F69A5E2225E939E0033F794 /* Learn2DanceUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F69A5E1225E939E0033F794 /* Learn2DanceUITests.swift */; };
 		3F69A5F0225E93CD0033F794 /* Create.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F69A5EF225E93CD0033F794 /* Create.storyboard */; };
 		3F69A5F2225E93E70033F794 /* Stream.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F69A5F1225E93E70033F794 /* Stream.storyboard */; };
-		3F69A5F4225E998F0033F794 /* Detail.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3F69A5F3225E998F0033F794 /* Detail.storyboard */; };
 		3F69A5F6225E9C550033F794 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F69A5F5225E9C550033F794 /* LoginViewController.swift */; };
 		3F69A5F8225E9D370033F794 /* CreateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F69A5F7225E9D370033F794 /* CreateViewController.swift */; };
-		3F69A5FA225E9D5D0033F794 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F69A5F9225E9D5D0033F794 /* DetailViewController.swift */; };
 		3F69A5FC225E9D6B0033F794 /* StreamViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F69A5FB225E9D6B0033F794 /* StreamViewController.swift */; };
 		44B255B95BE17CBFFB33F5BB /* Pods_Learn2DanceTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7B9682A4C39DD25FBA5AC694 /* Pods_Learn2DanceTests.framework */; };
 		6C7A6567A61E67BA37FC0895 /* Pods_Learn2Dance.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AC4997993BAB6B0661C9D6A0 /* Pods_Learn2Dance.framework */; };
@@ -63,10 +61,8 @@
 		3F69A5E3225E939E0033F794 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3F69A5EF225E93CD0033F794 /* Create.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Create.storyboard; sourceTree = "<group>"; };
 		3F69A5F1225E93E70033F794 /* Stream.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Stream.storyboard; sourceTree = "<group>"; };
-		3F69A5F3225E998F0033F794 /* Detail.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Detail.storyboard; sourceTree = "<group>"; };
 		3F69A5F5225E9C550033F794 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		3F69A5F7225E9D370033F794 /* CreateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateViewController.swift; sourceTree = "<group>"; };
-		3F69A5F9225E9D5D0033F794 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		3F69A5FB225E9D6B0033F794 /* StreamViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StreamViewController.swift; sourceTree = "<group>"; };
 		7B9682A4C39DD25FBA5AC694 /* Pods_Learn2DanceTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Learn2DanceTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AC4997993BAB6B0661C9D6A0 /* Pods_Learn2Dance.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Learn2Dance.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -136,9 +132,7 @@
 				3F69A5C5225E939C0033F794 /* Main.storyboard */,
 				3F69A5EF225E93CD0033F794 /* Create.storyboard */,
 				3F69A5F7225E9D370033F794 /* CreateViewController.swift */,
-				3F69A5F9225E9D5D0033F794 /* DetailViewController.swift */,
 				3F69A5FB225E9D6B0033F794 /* StreamViewController.swift */,
-				3F69A5F3225E998F0033F794 /* Detail.storyboard */,
 				3F69A5C8225E939E0033F794 /* Assets.xcassets */,
 				3F69A5CA225E939E0033F794 /* LaunchScreen.storyboard */,
 				3F69A5CD225E939E0033F794 /* Info.plist */,
@@ -302,7 +296,6 @@
 				3F69A5F2225E93E70033F794 /* Stream.storyboard in Resources */,
 				3F69A5C9225E939E0033F794 /* Assets.xcassets in Resources */,
 				3F69A5C7225E939C0033F794 /* Main.storyboard in Resources */,
-				3F69A5F4225E998F0033F794 /* Detail.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -428,7 +421,6 @@
 				3F3516A3227668E8001943EA /* VideoCell.swift in Sources */,
 				3F69A5F6225E9C550033F794 /* LoginViewController.swift in Sources */,
 				3F69A5FC225E9D6B0033F794 /* StreamViewController.swift in Sources */,
-				3F69A5FA225E9D5D0033F794 /* DetailViewController.swift in Sources */,
 				3F69A5C4225E939C0033F794 /* ViewController.swift in Sources */,
 				3F69A5C2225E939C0033F794 /* AppDelegate.swift in Sources */,
 			);
